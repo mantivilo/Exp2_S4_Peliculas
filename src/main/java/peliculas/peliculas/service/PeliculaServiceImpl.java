@@ -25,7 +25,7 @@ public class PeliculaServiceImpl implements PeliculaService{
     }
 
     @Override
-    public Pelicula creatPelicula(Pelicula pelicula){
+    public Pelicula createPelicula(Pelicula pelicula){
         return peliculaRepository.save(pelicula);
     }
 
